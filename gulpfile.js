@@ -40,4 +40,4 @@ gulp.task('background', function(){
 	gulp.watch('./source/*.html',['mini-html']);
 });
 
-gulp.task("default",['background']);
+gulp.task("default",['cmpf-css','mini-html','background']);
